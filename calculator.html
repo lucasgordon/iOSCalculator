@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js" defer></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="calculator-header">
+      <div class="time" id="time">00:00</div>
+      
+      <div class="right-header">
+        <div class="service" id="service">Service</div>
+        <div class="wifi" id="wifi">WiFi</div>
+        <div class="battery" id="battery">100%</div>
+      </div>
+    </div>
+    <div class="calculator-display" id="calculator-display">0</div>
+    <div class="calculator-buttons">
+      <div class="calculator-button-row">
+        <button class="calculator-button light-button" data-action="clear">C</button>
+        <button class="calculator-button light-button" data-action="pos-neg">+/-</button>
+        <button class="calculator-button light-button" data-action="percent">%</button>
+        <button class="calculator-button yellow-button" data-action="divide">÷</button>
+      </div>
+      <div class="calculator-button-row">
+        <button class="calculator-button number-button" data-value="7">7</button>
+        <button class="calculator-button number-button" data-value="8">8</button>
+        <button class="calculator-button number-button" data-value="9">9</button>
+        <button class="calculator-button yellow-button" data-action="multiply">*</button>
+      </div>
+      <div class="calculator-button-row">
+        <button class="calculator-button number-button" data-value="4">4</button>
+        <button class="calculator-button number-button" data-value="5">5</button>
+        <button class="calculator-button number-button" data-value="6">6</button>
+        <button class="calculator-button yellow-button" data-action="subtract">-</button>
+      </div>
+      <div class="calculator-button-row">
+        <button class="calculator-button number-button" data-value="1">1</button>
+        <button class="calculator-button number-button" data-value="2">2</button>
+        <button class="calculator-button number-button" data-value="3">3</button>
+        <button class="calculator-button yellow-button" data-action="add">+</button>
+      </div>
+      <div class="calculator-button-row">
+        <button class="calculator-button zero-button" data-value="0">0</button>
+        <button class="calculator-button number-button" data-value=".">.</button>
+        <button class="calculator-button yellow-button" data-action="equals">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
